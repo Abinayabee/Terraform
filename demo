@@ -9,22 +9,22 @@ pipeline {
         }
         stage('build') {
             steps {
-                echo 'Building World'
+                echo 'Building'
             }
         }
         stage('test') {
             steps {
-                echo 'Testing World'
+                echo 'Testing'
             }
         }
         stage('Deploy') {
             steps {
-                echo 'Deploying World'
+                echo 'Deploying'
             }
         }
         stage('Release') {
             steps {
-                echo 'Releasing World'
+                echo 'Releasing'
             }
         }
     }
