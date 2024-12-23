@@ -1,0 +1,12 @@
+Initialization steps:
+1. Download terraform zip from url
+https://developer.hashicorp.com/terraform/install?product_intent=terraform 
+Extract the zip file to a folder and add that folder in environemnt variable--> E:\Terraform
+Test- terraform -version
+
+2. Create IAM user in aws and generate secret and access key--> store it somewhere safe to login to aws from tf
+
+
+
+
+
